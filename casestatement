@@ -1,0 +1,23 @@
+#!/bin/bash
+# demo of a case statement in a script
+
+echo "MAIN MENU"
+echo "-----"
+echo "1) ONE"
+echo "2) TWO"
+echo "3) THREE"
+echo ""
+echo "ENTER CHOICE"
+read MENUCHOICE
+
+case $MENUCHOICE in
+ 1)
+   echo "choosing the first option";;
+ 2)
+   echo "choosing the second option";;
+ 3)
+   echo "choosing the third option";;
+ *)
+   echo "you choose something out-of-box";;
+ esac
+ 
